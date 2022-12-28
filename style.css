@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgba(244, 259, 252, 1);
+}
+nav {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+nav li{
+    float: left;
+    width: 15%;
+    margin-top: 20px;
+    color: #333;
+    list-style: none;
+}
+.first-link {
+    font-weight: bold;
+    font-size: large;
+}
+a {
+    background-color:rgba(44, 69, 91, 1);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+ul a {
+   float: right;
+   clear: both;
+}
+.source {
+    float: left;
+    clear: both;
+    margin-top: 40px;
+    width: 40%;
+    padding: 5%;
+}
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.image {
+    float: left;
+    margin-top: 40px;
+    width: 40%;
+}
+.container {
+    clear: both;
+}
+.container section {
+    float: left;
+    padding: 5%;
+    width: 25%;
+}
